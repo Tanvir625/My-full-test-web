@@ -11,10 +11,11 @@ nav li {
 nav li a {
   text-decoration: none;
   color: black;
+  padding:10px;
 }
 
 nav li:hover {
-  background-color: antiquewhite;
+  background-color: rgb(220, 39, 15);
 }
 nav {
   background-color: #e87a3a;
@@ -38,17 +39,24 @@ nav li:hover > .dropdown{
 
 }
 .hero img{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 800px;
+  
+  height: 700px;
+  border: 5px solid rgb(190, 48, 84);
+  border-radius: 50px;
+  margin-left: 80px;
 
 }
 *{
-  background-color: #f27a43;
+  background-color: #d47a51;
 }
-.hero caption{
+
+.hero article{
   text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
 }
+
 .hero p{
   text-align: center;
 }
+
