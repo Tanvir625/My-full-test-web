@@ -18,7 +18,7 @@ nav li:hover {
   background-color: rgb(220, 39, 15);
 }
 nav {
-  background-color: #e87a3a;
+  background-color: lightgoldenrodyellow;
 }
 
 /* nasted menu style */
@@ -47,7 +47,7 @@ nav li:hover > .dropdown{
 
 }
 *{
-  background-color: #d47a51;
+  /* background-color: #d47a51; */
 }
 
 .hero article{
@@ -60,3 +60,33 @@ nav li:hover > .dropdown{
   text-align: center;
 }
 
+.panda{
+  height: 200px;
+}
+.selectimage{
+  background-color: white;
+}
+#mySelection{
+  background-color: #fff;
+}
+.search{
+  background-color: #fff;
+}
+.selectimage{
+  /* margin-top: 10%; */
+  border: 2px solid black;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: -5px 0 15px rgba(0,0,0,0.25);
+  padding-left: 10px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+
+.hero{
+  margin-bottom: 70px;
+}
+.selectimage button{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
