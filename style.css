@@ -16,3 +16,39 @@ nav li a {
 nav li:hover {
   background-color: antiquewhite;
 }
+nav {
+  background-color: #e87a3a;
+}
+
+/* nasted menu style */
+
+nav li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: lightyellow;
+  padding-left: 10px;
+}
+
+nav li:hover > .dropdown{
+  display:block;
+}
+
+.hero h1{
+  text-align: center;
+
+}
+.hero img{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 800px;
+
+}
+*{
+  background-color: #f27a43;
+}
+.hero caption{
+  text-align: center;
+}
+.hero p{
+  text-align: center;
+}
