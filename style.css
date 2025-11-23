@@ -12,6 +12,7 @@ nav li a {
   text-decoration: none;
   color: black;
   padding:10px;
+ 
 }
 
 nav li:hover {
@@ -19,6 +20,8 @@ nav li:hover {
 }
 nav {
   background-color: lightgoldenrodyellow;
+  padding: 10px;
+  
 }
 
 /* nasted menu style */
@@ -38,8 +41,7 @@ nav li:hover > .dropdown{
   text-align: center;
 
 }
-.hero img{
-  
+.hero img{  
   height: 700px;
   border: 5px solid rgb(190, 48, 84);
   border-radius: 50px;
@@ -103,6 +105,7 @@ nav li:hover > .dropdown{
   /* margin-top: -500px; */
 }
 
+
 td, th{
   border: 2px solid black;
   padding: 5px 10px;
@@ -114,4 +117,34 @@ table {
   margin-left: 10px;
 }
 
+.parent{
+  padding: 25px;
+  background-color: rgb(240, 192, 132);
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
 
+.child{
+  border: 2px solid lightseagreen;
+  background-color: lightcyan;
+  padding: 20px;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+nav ul {
+  justify-content: flex-end;
+  /* if you need the items visually reversed, use:
+     flex-direction: row-reverse; */
+}
+
+nav li a{
+  font-size: 28px;
+  font-weight: 400;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: lightsalmon;
+  /* cursor: pointer; */
+}
