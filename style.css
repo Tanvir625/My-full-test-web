@@ -46,11 +46,9 @@ nav li:hover > .dropdown{
   border: 5px solid rgb(190, 48, 84);
   border-radius: 50px;
   margin-left: 80px;
+  
+}
 
-}
-*{
-  /* background-color: #d47a51; */
-}
 
 .hero article{
   text-align: center;
