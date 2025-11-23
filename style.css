@@ -46,7 +46,7 @@ nav li:hover > .dropdown{
   border: 5px solid rgb(190, 48, 84);
   border-radius: 50px;
   margin-left: 80px;
-  
+
 }
 
 
@@ -114,25 +114,9 @@ table {
   border-collapse: collapse;
   margin-left: 10px;
 }
-
-.parent{
-  padding: 25px;
-  background-color: rgb(240, 192, 132);
-  display: flex;
-  gap: 20px;
-  justify-content: space-evenly;
-}
-
-.child{
-  border: 2px solid lightseagreen;
-  background-color: lightcyan;
-  padding: 20px;
-  font-size: 28px;
-  margin: 10px 0;
-}
-
 nav ul {
   justify-content: flex-end;
+
   /* if you need the items visually reversed, use:
      flex-direction: row-reverse; */
 }
@@ -146,3 +130,23 @@ nav li a{
   background-color: lightsalmon;
   /* cursor: pointer; */
 }
+
+
+
+.parent{
+  padding: 25px;
+  background-color: rgb(240, 192, 132);
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.child{
+  border: 2px solid lightseagreen;
+  background-color: lightcyan;
+  padding: 20px;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
